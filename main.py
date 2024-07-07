@@ -9,7 +9,7 @@ image3 = 'img3.png'
 images = [image1, image2, image3]
 
 while True:
-    if keyboard.is_pressed('c'):
+    if keyboard.is_pressed('q'):
       break
     for image in images:
         location = pyautogui.locateCenterOnScreen(image)
